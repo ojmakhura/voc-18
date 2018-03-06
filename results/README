@@ -1,0 +1,10 @@
+This folder contains results from running vocount on the videos from the videos folder. Each video has it's own results folder with the following structure.
+
+<Video>
+    |
+    |__ extended
+    |__ unextended
+
+The "extended" folder contains the results from running vocount with extension enabled so that the initial object locations are extended by using other clusters. The "unextended" folder has the results where there was not extension to the original object locations.
+
+wx02 - console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/wx02.mp4 -n=1 -w=1 -s -d -f -df -rx=54 -ry=308 -rw=42 -rh=32 -o=/mnt/2TB/programming/phd/workspace/dataset/results/wx02_extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/wx02 -e
