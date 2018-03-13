@@ -8,41 +8,41 @@ This folder contains results from running vocount on the videos from the videos 
 The "extended" folder contains the results from running vocount with extension enabled so that the initial object locations are extended by using other clusters. The "unextended" folder has the results where there was not extension to the original object locations.
 
 ### birds_1
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_1.mp4 -n=1 -w=1 -s -d -f -df -rx=54 -ry=308 -rw=42 -rh=32 -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_1/unextended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_1
+console/vocount_cli -v=../dataset/videos/birds_1.mp4 -n=1 -w=1 -s -d -f -df -rx=54 -ry=308 -rw=42 -rh=32 -o=/../dataset/results/birds_1/unextended -t=../dataset/truth/birds_1
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_1.mp4 -n=1 -w=1 -s -d -f -df -rx=54 -ry=308 -rw=42 -rh=32 -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_1/extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_1 -e
+console/vocount_cli -v=../dataset/videos/birds_1.mp4 -n=1 -w=1 -s -d -f -df -rx=54 -ry=308 -rw=42 -rh=32 -o=../dataset/results/birds_1/extended -t=../dataset/truth/birds_1 -e
 
 ### birds_2
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_2.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_2/extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_2 -rx=300 -ry=195 -rw=104 -rh=50
+console/vocount_cli -v=../dataset/videos/birds_2.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_2/extended -t=../dataset/truth/birds_2 -rx=300 -ry=195 -rw=104 -rh=50
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_2.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_2/unextended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_2 -rx=300 -ry=195 -rw=104 -rh=50 -e
+console/vocount_cli -v=../dataset/videos/birds_2.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_2/unextended -t=../dataset/truth/birds_2 -rx=300 -ry=195 -rw=104 -rh=50 -e
 
 ### birds_3
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_3.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_3/unextended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_3 -rw=31 -rh=20 -rx=228 -ry=251
+console/vocount_cli -v=../dataset/videos/birds_3.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_3/unextended -t=../dataset/truth/birds_3 -rw=31 -rh=20 -rx=228 -ry=251
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_3.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_3/extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_3 -rw=31 -rh=20 -rx=228 -ry=251 -e
+console/vocount_cli -v=../dataset/videos/birds_3.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_3/extended -t=../dataset/truth/birds_3 -rw=31 -rh=20 -rx=228 -ry=251 -e
 
 ### birds_7
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_7.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_7/unextended -rw=128 -rh=33 -rx=108 -ry=132
+console/vocount_cli -v=../dataset/videos/birds_7.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_7/unextended -rw=128 -rh=33 -rx=108 -ry=132
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_7.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_7/extended -rw=128 -rh=33 -rx=108 -ry=132 -e 
+console/vocount_cli -v=../dataset/videos/birds_7.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_7/extended -rw=128 -rh=33 -rx=108 -ry=132 -e 
 
 ### birds_11
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_11.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_11/unextended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_11 -rw=58 -rh=79 -rx=395 -ry=204
+console/vocount_cli -v=../dataset/videos/birds_11.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_11/unextended -t=../dataset/truth/birds_11 -rw=58 -rh=79 -rx=395 -ry=204
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_11.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_11/extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_11 -rw=58 -rh=79 -rx=395 -ry=204 -e
+console/vocount_cli -v=../dataset/videos/birds_11.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_11/extended -t=../dataset/truth/birds_11 -rw=58 -rh=79 -rx=395 -ry=204 -e
 
 ### birds_12
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_12.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_12/unextended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_12 -rw=117 -rh=56 -rx=234 -ry=142
+console/vocount_cli -v=../dataset/videos/birds_12.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_12/unextended -t=../dataset/truth/birds_12 -rw=117 -rh=56 -rx=234 -ry=142
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_12.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_12/extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_12 -rw=117 -rh=56 -rx=234 -ry=142 -e
+console/vocount_cli -v=../dataset/videos/birds_12.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_12/extended -t=../dataset/truth/birds_12 -rw=117 -rh=56 -rx=234 -ry=142 -e
 
 ### birds_13
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_13.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_13/unextended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_13 -rw=16 -rh=23 -rx=442 -ry=306
+console/vocount_cli -v=../dataset/videos/birds_13.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_13/unextended -t=../dataset/truth/birds_13 -rw=16 -rh=23 -rx=442 -ry=306
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_13.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_13/extended -t=/mnt/2TB/programming/phd/workspace/dataset/truth/birds_13 -rw=16 -rh=23 -rx=442 -ry=306 -e
+console/vocount_cli -v=../dataset/videos/birds_13.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_13/extended -t=../dataset/truth/birds_13 -rw=16 -rh=23 -rx=442 -ry=306 -e
 
 ### birds_17
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_17.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_17/unextended -rw=48 -rh=39 -rx=201 -ry=252
+console/vocount_cli -v=../dataset/videos/birds_17.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_17/unextended -rw=48 -rh=39 -rx=201 -ry=252
 
-console/vocount_cli -v=/mnt/2TB/programming/phd/workspace/dataset/videos/birds_17.mp4 -n=1 -w=1 -s -d -f -df -o=/mnt/2TB/programming/phd/workspace/dataset/results/birds_17/extended -rw=48 -rh=39 -rx=201 -ry=252 -e
+console/vocount_cli -v=../dataset/videos/birds_17.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_17/extended -rw=48 -rh=39 -rx=201 -ry=252 -e
