@@ -57,50 +57,50 @@ console/vocount_cli -v=../dataset/videos/birds/birds_17.mp4 -n=1 -w=1 -s -d -f -
 console/vocount_cli -v=../dataset/videos/birds/birds_17.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/birds_17/extended -rw=48 -rh=39 -rx=201 -ry=252 -e
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_1/unextended/norotation -rw=40 -rh=42 -rx=1137 -ry=177
-console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_1/unextended/rotation -rw=40 -rh=42 -rx=1137 -ry=177 -r
-console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_1/extended/norotation -rw=40 -rh=42 -rx=1137 -ry=177 -e
-console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_1/extended/rotation -rw=40 -rh=42 -rx=1137 -ry=177 -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_1/unextended/norotation -rw=40 -rh=42 -rx=1137 -ry=177
+console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_1/unextended/rotation -rw=40 -rh=42 -rx=1137 -ry=177 -r
+console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_1/extended/norotation -rw=40 -rh=42 -rx=1137 -ry=177 -e
+console/vocount_cli -v=../dataset/videos/blood/blood_1.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_1/extended/rotation -rw=40 -rh=42 -rx=1137 -ry=177 -e -r
 
 ### blood_2
-console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_2/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_2/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_2/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_2/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_2/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_2/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_2/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_2.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_2/extended/rotation -e -r
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_3/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_3/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_3/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_3/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_3/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_3/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_3/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_3.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_3/extended/rotation -e -r
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_4/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_4/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_4/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_4/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_4/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_4/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_4/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_4.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_4/extended/rotation -e -r
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_5/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_5/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_5/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_5/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_5/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_5/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_5/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_5.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_5/extended/rotation -e -r
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_6/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_6/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_6/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_6/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_6/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_6/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_6/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_6.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_6/extended/rotation -e -r
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_7/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_7/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_7/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_7/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_7/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_7/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_7/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_7.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_7/extended/rotation -e -r
 
 ### blood_1
-console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_8/unextended/norotation
-console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_8/unextended/rotation -r
-console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_8/extended/norotation -e
-console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=out/birds_8/extended/rotation -e -r
+console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_8/unextended/norotation
+console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_8/unextended/rotation -r
+console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_8/extended/norotation -e
+console/vocount_cli -v=../dataset/videos/blood/blood_8.mp4 -n=1 -w=1 -s -d -f -df -o=../dataset/results/blood_8/extended/rotation -e -r
 
