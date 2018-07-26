@@ -43,6 +43,7 @@ cap = cv2.VideoCapture(vidFile)
 frameCount = 0
 while True:
     ret, frame = cap.read()
+    frame = cv2.normalize(frame, 0, 200, cv2.NORM_MINMAX);
     
     if cv2.waitKey(1) & 0xFF == ord('q') or not ret:
         break

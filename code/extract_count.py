@@ -36,8 +36,11 @@ def processOptions(options):
 	if not os.path.exists(options['o']):
 		os.makedirs(options['o'])
 
-def readFiles(t_count):
+def extractGroundTruth(t_count):
 	files = [f for f in os.listdir(options['i']) if os.path.isfile(os.path.join(options['i'], f))]
+	indices = list()
+	counts = list()
+	
 	for f in files:
 		f_name = os.path.join(options['i'], f)
 		print("Processing ...", f)
@@ -46,8 +49,19 @@ def readFiles(t_count):
 		T = 25
 		labeled, nr_objects = ndimage.label(dnaf > T)
 		fnum = f.strip().split()[0]
-		t_count[fnum] = str(nr_objects)
-
+		#t_count[fnum] = str(nr_objects)
+		indices.append(int(fnum))
+		counts.append(nr_objects)
+	
+	# Calculate a running average of 10 frames
+	for i in range(0, len(indices)):
+		tmp = count
+		if i > 9:
+			first = i - 9
+			tmp = count[first:i+1]
+		
+		average = int(sum(tmp)/len(tmp))
+		t_count[str(indices[i])] = str(average)
 
 def createDB(fname, t_count):
 	print("Creating database .....")
@@ -71,7 +85,7 @@ def readDB(fname):
 options = {}
 processOptions(options)
 t_count = dict()
-readFiles(t_count)
+extractGroundTruth(t_count)
 
 fname = os.path.join(options['o'], options['f'])
 createDB(fname, t_count)
