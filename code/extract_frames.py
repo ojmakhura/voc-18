@@ -41,18 +41,19 @@ if not os.path.exists(outFolder):
 cap = cv2.VideoCapture(vidFile)
 
 frameCount = 0
-while True:
-    ret, frame = cap.read()
-    frame = cv2.normalize(frame, 0, 200, cv2.NORM_MINMAX);
+ret, frame = cap.read()
+while ret:
+    
+    #frame = cv2.normalize(frame, 0, 200, cv2.NORM_MINMAX);
     
     if cv2.waitKey(1) & 0xFF == ord('q') or not ret:
         break
     
     frameCount += 1
     cv2.imshow('frame', frame)
-    
     frameName = outFolder + "/" + str(frameCount) + " " + "frame.jpg"
     cv2.imwrite(frameName, frame)
+    ret, frame = cap.read()
 
 # When everything done, release the capture
 cap.release()
