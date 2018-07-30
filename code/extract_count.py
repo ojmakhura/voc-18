@@ -53,15 +53,23 @@ def extractGroundTruth(t_count):
 		indices.append(int(fnum))
 		counts.append(nr_objects)
 	
+	tc = counts.copy()
+	ti = indices.copy()
+	
+	for i in range(0, len(indices)):
+		idx = indices[i]-1
+		ti[idx] = indices[i]
+		tc[idx] = counts[i]
+					
 	# Calculate a running average of 10 frames
 	for i in range(0, len(indices)):
-		tmp = count
+		first = 0
 		if i > 9:
 			first = i - 9
-			tmp = count[first:i+1]
 		
+		tmp = tc[first:i+1]
 		average = int(sum(tmp)/len(tmp))
-		t_count[str(indices[i])] = str(average)
+		t_count[str(ti[i])] = str(average)
 
 def createDB(fname, t_count):
 	print("Creating database .....")
