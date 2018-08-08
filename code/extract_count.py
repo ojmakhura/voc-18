@@ -74,9 +74,13 @@ def extractGroundTruth(t_count):
 def createDB(fname, t_count):
 	print("Creating database .....")
 	lmdb_env = lmdb.open(fname, map_size=int(1e9))
+	csv_file = open(fname + "/" + options["f"] + ".csv", "w");
+	csv_file.write("Frame #,Count\n");
 	for key, value in t_count.items():
 		with lmdb_env.begin(write=True) as lmdb_txn:
 			lmdb_txn.put(key.encode('utf-8'), value.encode('utf-8'))
+		
+		csv_file.write(key + "," + value + "\n");
 	
 	print("Database created in", fname)
 
@@ -97,4 +101,4 @@ extractGroundTruth(t_count)
 
 fname = os.path.join(options['o'], options['f'])
 createDB(fname, t_count)
-#print(readDB(fname))
+#readDB(fname)
